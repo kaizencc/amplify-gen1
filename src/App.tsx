@@ -62,7 +62,7 @@ const App: React.FC<AppProps> = ({ signOut, user }) => {
       <Heading level={1}>Hello {user?.username ?? 'Kaizen'}</Heading>
       <Button onClick={signOut}>Sign out</Button>
       <div style={styles.mapContainer}>
-        <MapView mapName="mapc4589e41-dev" />
+        <MapView />
       </div>
       <h2>Amplify Todos</h2>
       <input
