@@ -9,6 +9,8 @@ import { withAuthenticator, Button, Heading } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import { type AuthUser } from "aws-amplify/auth";
 import { type UseAuthenticator } from "@aws-amplify/ui-react-core";
+import { MapView } from '@aws-amplify/ui-react-geo';
+import '@aws-amplify/ui-react-geo/styles.css';
 
 const initialState: CreateTodoInput = { name: '', description: '' };
 const client = generateClient();
@@ -59,6 +61,9 @@ const App: React.FC<AppProps> = ({ signOut, user }) => {
     <div style={styles.container}>
       <Heading level={1}>Hello {user?.username ?? 'Kaizen'}</Heading>
       <Button onClick={signOut}>Sign out</Button>
+      <div style={styles.mapContainer}>
+        <MapView mapName="mapc4589e41-dev" />
+      </div>
       <h2>Amplify Todos</h2>
       <input
         onChange={(event) =>
@@ -97,6 +102,14 @@ const styles = {
     flexDirection: "column",
     justifyContent: "center",
     padding: 20,
+  },
+  mapContainer: {
+    height: 300,
+    width: "100%",
+    marginBottom: 20,
+    border: "2px solid #ddd",
+    borderRadius: 8,
+    overflow: "hidden",
   },
   todo: { marginBottom: 15 },
   input: {
