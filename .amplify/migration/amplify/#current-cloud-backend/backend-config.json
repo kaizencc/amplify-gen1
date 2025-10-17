@@ -1,14 +1,4 @@
 {
-  "analytics": {
-    "reactamplified": {
-      "providerPlugin": "awscloudformation",
-      "service": "Pinpoint"
-    },
-    "reactamplifiedKinesis": {
-      "providerPlugin": "awscloudformation",
-      "service": "Kinesis"
-    }
-  },
   "api": {
     "reactamplified": {
       "dependsOn": [],
@@ -51,24 +41,6 @@
       },
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
-    }
-  },
-  "geo": {
-    "map1b8eae72": {
-      "accessType": "AuthorizedUsers",
-      "dependsOn": [
-        {
-          "attributes": [
-            "UserPoolId"
-          ],
-          "category": "auth",
-          "resourceName": "reactamplified93066f02"
-        }
-      ],
-      "isDefault": true,
-      "mapStyle": "VectorEsriStreets",
-      "providerPlugin": "awscloudformation",
-      "service": "Map"
     }
   },
   "hosting": {

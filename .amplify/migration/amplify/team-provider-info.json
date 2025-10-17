@@ -27,36 +27,34 @@
       "geo": {
         "map462bdfb4": {},
         "map19bdf9cf": {},
-        "mapc4589e41": {},
-        "map1b8eae72": {}
-      },
-      "analytics": {
-        "reactamplified": {},
-        "reactamplifiedKinesis": {}
+        "mapc4589e41": {}
       }
     }
   },
-  "abcde": {
+  "migrate": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-reactamplified-abcde-0b8df-authRole",
-      "UnauthRoleArn": "arn:aws:iam::912331974472:role/amplify-reactamplified-abcde-0b8df-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::912331974472:role/amplify-reactamplified-abcde-0b8df-authRole",
+      "AuthRoleName": "amplify-reactamplified-migrate-cb80b-authRole",
+      "UnauthRoleArn": "arn:aws:iam::912331974472:role/amplify-reactamplified-migrate-cb80b-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::912331974472:role/amplify-reactamplified-migrate-cb80b-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-reactamplified-abcde-0b8df-deployment",
-      "UnauthRoleName": "amplify-reactamplified-abcde-0b8df-unauthRole",
-      "StackName": "amplify-reactamplified-abcde-0b8df",
-      "StackId": "arn:aws:cloudformation:us-east-1:912331974472:stack/amplify-reactamplified-abcde-0b8df/ebeb07c0-aafa-11f0-a939-122d53d07f31",
+      "DeploymentBucketName": "amplify-reactamplified-migrate-cb80b-deployment",
+      "UnauthRoleName": "amplify-reactamplified-migrate-cb80b-unauthRole",
+      "StackName": "amplify-reactamplified-migrate-cb80b",
+      "StackId": "arn:aws:cloudformation:us-east-1:912331974472:stack/amplify-reactamplified-migrate-cb80b/6e1b32b0-aac9-11f0-b69e-12b2ccca489f",
       "AmplifyAppId": "d1350ke7ta4aar"
     },
     "categories": {
-      "auth": {
-        "reactamplified93066f02": {}
-      },
       "hosting": {
         "amplifyhosting": {
           "appId": "d1350ke7ta4aar",
           "type": "manual"
         }
+      },
+      "auth": {
+        "reactamplified93066f02": {}
+      },
+      "api": {
+        "reactamplified": {}
       }
     }
   }
