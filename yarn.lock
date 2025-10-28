@@ -1124,11 +1124,6 @@
     lodash "4.17.21"
     tslib "^2.5.2"
 
-"@aws-cdk/asset-awscli-v1@2.2.237":
-  version "2.2.237"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.237.tgz#d3356aaf3f73e34982ae289b7e4441e20d58497a"
-  integrity sha512-OlXylbXI52lboFVJBFLae+WB99qWmI121x/wXQHEMj2RaVNVbWE+OAHcDk2Um1BitUQCaTf9ki57B0Fuqx0Rvw==
-
 "@aws-cdk/asset-awscli-v1@2.2.242":
   version "2.2.242"
   resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.242.tgz#235cb25b6d1ad26975b0095c0d6ee84309adae5c"
@@ -1171,14 +1166,6 @@
   version "48.16.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-48.16.0.tgz#7680b690ec9fd45ff2b2384a912b2d462f9577f9"
   integrity sha512-JjNAJ4FX78c/xPFoqA4uJUIJgMpNxKbU+Jvrp1SBBY41Er8rdLdP9VhJ+BqEP4eO6Y12HZmb2ebnxIALMFNE7Q==
-  dependencies:
-    jsonschema "~1.4.1"
-    semver "^7.7.2"
-
-"@aws-cdk/cloud-assembly-schema@^44.2.0":
-  version "44.9.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-44.9.0.tgz#1b8673cd7d83d749566b5acc1d510397f1dc60cb"
-  integrity sha512-zQ/CwW/CZ3Zcf2vdukBCHbZi8wwYuoVIRU7w6dWS7Y7wPuq7iWTWwQyujvH5YlDVMyH4mrgYa3f1lV2etTZLVQ==
   dependencies:
     jsonschema "~1.4.1"
     semver "^7.7.2"
@@ -1333,171 +1320,6 @@
     "@aws-sdk/types" "^3.222.0"
     "@smithy/util-utf8" "^2.0.0"
     tslib "^2.6.2"
-
-"@aws-mdaa/bedrock-builder-l3-construct@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/bedrock-builder-l3-construct/-/bedrock-builder-l3-construct-1.2.0.tgz#4126c14dcfcc970e6024f4ab0ce0097fbf19f3ec"
-  integrity sha512-lwHSnFYAgPK/Nvq3pwIrNB8ro9x9rmcJiQHXWX9YALVjnHxzxI9ClMO1Yniq2EdGXNsT2W3S2vhgxFPi3/5wzg==
-  dependencies:
-    "@aws-mdaa/cloudwatch-constructs" "1.2.0"
-    "@aws-mdaa/construct" "1.2.0"
-    "@aws-mdaa/iam-constructs" "1.2.0"
-    "@aws-mdaa/iam-role-helper" "1.2.0"
-    "@aws-mdaa/kms-constructs" "1.2.0"
-    "@aws-mdaa/l3-construct" "1.2.0"
-    "@aws-mdaa/naming" "1.2.0"
-    "@aws-mdaa/rds-constructs" "1.2.0"
-    "@aws-mdaa/s3-bucketpolicy-helper" "1.2.0"
-    "@aws-mdaa/s3-constructs" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-    lodash "4.17.21"
-    yaml "1.10.2"
-
-"@aws-mdaa/cloudwatch-constructs@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/cloudwatch-constructs/-/cloudwatch-constructs-1.2.0.tgz#c37c98e76bf2b02242b736716ec43b7ac27c20f2"
-  integrity sha512-p7WOtgMyOGZP9C6g1uhhGlwaIPGdOIDmRRjzGLGwV7JpDgzxqcO4E1ieLp49dQMOF0d1qnFHsV0lnU1GTXxzmg==
-  dependencies:
-    "@aws-mdaa/construct" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-
-"@aws-mdaa/config@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/config/-/config-1.2.0.tgz#ed68e46d45799105fed3dcd1eaf3098e9c305829"
-  integrity sha512-Z+QRsmnw3WoKyTsDNbwfOi3rkwKD3xmpm79WDbpaH+WViqSAU47ZMb5K9xroH5OnPryZwVf0UyL6X/PHSZ8TNg==
-  dependencies:
-    "@aws-mdaa/naming" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    constructs "10.0.96"
-    xregexp "5.1.1"
-
-"@aws-mdaa/construct@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/construct/-/construct-1.2.0.tgz#f6640efaf19de03bc429d2b6d34a4a824bd610d5"
-  integrity sha512-j2vsO3O6x+TUuI7yytyZm/FgUhscwgcyIoKi7yU0yeicuHg6qBbfDy3UtU6geN56SrIne++2+ybMXR8JJPwCqQ==
-  dependencies:
-    "@aws-mdaa/naming" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-
-"@aws-mdaa/custom-constructs@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/custom-constructs/-/custom-constructs-1.2.0.tgz#4ed750a74eb7ba9568f5859b42218fe04a2735e3"
-  integrity sha512-QIfHgA9jyZGajlsJY3fYvs4NmmQs3YuFQoF+1GBAo2qshQJ4jLvOlGMaTtaTr+h8MhFebmSGpAhPFJ+R2/LcCA==
-  dependencies:
-    "@aws-mdaa/construct" "1.2.0"
-    "@aws-mdaa/lambda-constructs" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-    lodash "4.17.21"
-
-"@aws-mdaa/iam-constructs@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/iam-constructs/-/iam-constructs-1.2.0.tgz#69858a17d8d69336ab98e5f38083d16357331652"
-  integrity sha512-vNv/qUNtEVdZmAzamkpn9q7OBBZpF4LHcAYmqpNyiD9763JHPICAEGmWwaHudIw5TWQ3cea7UzPcfIvjdDQ4Vg==
-  dependencies:
-    "@aws-mdaa/construct" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-
-"@aws-mdaa/iam-role-helper@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/iam-role-helper/-/iam-role-helper-1.2.0.tgz#c4df38a7e30af6fed8d43cea52797e33ab1ecb20"
-  integrity sha512-XzNvB3DKwcgGswuiYiRIGi7QNeSkdouPSSBPXr+5/pJiVb2tUtzSstka4ckepT9uZbI3y7n8NJXUYnANdqNLmA==
-  dependencies:
-    "@aws-mdaa/lambda-constructs" "1.2.0"
-    "@aws-mdaa/naming" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-
-"@aws-mdaa/kms-constructs@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/kms-constructs/-/kms-constructs-1.2.0.tgz#08a03ce1806fad33e5e509ddc2c58f7e5a0d1371"
-  integrity sha512-+ZT24XWEguPludeD+OSYzrWjALjnmFwfhCisBNekaJeHLLu8hS8hdjaVCoxwBOXOiBIAbqO3JbJu4VcvIuXB9A==
-  dependencies:
-    "@aws-mdaa/construct" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-
-"@aws-mdaa/l3-construct@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/l3-construct/-/l3-construct-1.2.0.tgz#002a3fac215f474d3f3bf0003ad58370656b5f89"
-  integrity sha512-+nqfXCxSU7O9/I5N6YuJHvZ2TlY7q3d0a2TPY/PsQt5G9WM4yvK4/T1hcKeDfia35uHRyE+gj5mMdCKFXic/dg==
-  dependencies:
-    "@aws-mdaa/config" "1.2.0"
-    "@aws-mdaa/construct" "1.2.0"
-    "@aws-mdaa/iam-role-helper" "1.2.0"
-    "@aws-mdaa/naming" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-
-"@aws-mdaa/lambda-constructs@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/lambda-constructs/-/lambda-constructs-1.2.0.tgz#a8bc4c747b3a623ffc25136afb1f842036caef51"
-  integrity sha512-p7XmaCSSneOzzPKNNyjSWwN1Si6XsAbVz/tf2htvetPaqTgUIqVlF+AC1v7MwrSkPcnj4xaNn9Jj8OSE3W2OjQ==
-  dependencies:
-    "@aws-mdaa/construct" "1.2.0"
-    "@aws-mdaa/iam-constructs" "1.2.0"
-    "@aws-mdaa/naming" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    command-exists "1.2.9"
-    constructs "10.0.96"
-
-"@aws-mdaa/naming@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/naming/-/naming-1.2.0.tgz#c0bc9c6650a2a1e4c28abe0abd1cb4d08891e7cb"
-  integrity sha512-+qoMqeMnVsIesZYx4sNB8/fcnCjE78jfWp3lKLTL7SdShjoOi7HnycDnG3rImeXbtjOV8JML7pnupOHRyS3Y7Q==
-  dependencies:
-    aws-cdk-lib "2.201.0"
-    constructs "10.0.96"
-
-"@aws-mdaa/rds-constructs@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/rds-constructs/-/rds-constructs-1.2.0.tgz#4f5b90dd09fd43cb53fcc6e1743cfc33282a48ef"
-  integrity sha512-XelTtpbjUX5BJTyPxewFav6FgpkmjOrDD3K5efLVLF1If0V9vXtCnFu7t9+LaFYYayd+lf/n7998FL6dm541NQ==
-  dependencies:
-    "@aws-mdaa/construct" "1.2.0"
-    "@aws-mdaa/custom-constructs" "1.2.0"
-    "@aws-mdaa/iam-constructs" "1.2.0"
-    "@aws-mdaa/kms-constructs" "1.2.0"
-    "@aws-mdaa/naming" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-
-"@aws-mdaa/s3-bucketpolicy-helper@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/s3-bucketpolicy-helper/-/s3-bucketpolicy-helper-1.2.0.tgz#0a8bf9447b6001a45f208f4b7cd07a54e3b4df52"
-  integrity sha512-nj1rWYtV9Bmk3m4Y+5i/EOvtuWLq+OQykdWjkZAi2+LqIBy5Ux8CrA7ORrHs0eY0mrg7ddf9OTzNtSGvOsnExw==
-  dependencies:
-    "@aws-mdaa/iam-role-helper" "1.2.0"
-    "@aws-mdaa/naming" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
-
-"@aws-mdaa/s3-constructs@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@aws-mdaa/s3-constructs/-/s3-constructs-1.2.0.tgz#3d4ce43a0d77e76d0b81b14c1f913465d0379a98"
-  integrity sha512-GuKE0uPV5Yyj4Ki6NZKxPD0Yz7P7CXcuX3HNxxxj9HX4JxTVs7z7RjhRVXS5sfeOu0HVj2GntCaFKtvBiQGtXw==
-  dependencies:
-    "@aws-mdaa/construct" "1.2.0"
-    "@aws-mdaa/kms-constructs" "1.2.0"
-    "@aws-mdaa/naming" "1.2.0"
-    aws-cdk-lib "2.201.0"
-    cdk-nag "2.37.1"
-    constructs "10.0.96"
 
 "@aws-sdk/client-amplify@^3.750.0":
   version "3.918.0"
@@ -4968,13 +4790,6 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.27.1"
 
-"@babel/runtime-corejs3@^7.16.5":
-  version "7.28.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.28.4.tgz#c25be39c7997ce2f130d70b9baecb8ed94df93fa"
-  integrity sha512-h7iEYiW4HebClDEhtvFObtPmIvrd1SSfpI9EhOeKk4CtIK/ngBWFpuhCzhdmRKtg71ylcue+9I6dv54XYO1epQ==
-  dependencies:
-    core-js-pure "^3.43.0"
-
 "@babel/runtime@^7.0.0", "@babel/runtime@^7.15.4", "@babel/runtime@^7.18.3", "@babel/runtime@^7.26.10":
   version "7.28.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.4.tgz#a70226016fabe25c5783b2f22d3e1c9bc5ca3326"
@@ -7914,26 +7729,6 @@ aws-amplify@*:
     "@aws-amplify/storage" "6.10.0"
     tslib "^2.5.0"
 
-aws-cdk-lib@2.201.0:
-  version "2.201.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.201.0.tgz#602e3195c11604c874c4d5885aaa950ea934cb0f"
-  integrity sha512-0ioqzM5dkJl02uchOfgeCY3thV3jTn9YkyZ/UF5P4Hq9iNGHQqmPu5xE/VcAV7+P72Z/zV+QLV0xkVT6iLF/bw==
-  dependencies:
-    "@aws-cdk/asset-awscli-v1" "2.2.237"
-    "@aws-cdk/asset-node-proxy-agent-v6" "^2.1.0"
-    "@aws-cdk/cloud-assembly-schema" "^44.2.0"
-    "@balena/dockerignore" "^1.0.2"
-    case "1.6.3"
-    fs-extra "^11.3.0"
-    ignore "^5.3.2"
-    jsonschema "^1.5.0"
-    mime-types "^2.1.35"
-    minimatch "^3.1.2"
-    punycode "^2.3.1"
-    semver "^7.7.2"
-    table "^6.9.0"
-    yaml "1.10.2"
-
 aws-cdk-lib@^2:
   version "2.221.0"
   resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.221.0.tgz#4af28bcaca7464248ed34ef0082158c460bf53ab"
@@ -8240,11 +8035,6 @@ cdk-from-cfn@^0.236.0:
   resolved "https://registry.yarnpkg.com/cdk-from-cfn/-/cdk-from-cfn-0.236.0.tgz#aa699e0cde7aace8de3a2936ea31ebf8267d24cd"
   integrity sha512-D7yG+9ywyasNZFYjRFan06JfoA328N2TF+m67K51BWEqGJs7AowRS5yLb0tkJU67QONyuBLENx3/hIaPLCJ3PA==
 
-cdk-nag@2.37.1:
-  version "2.37.1"
-  resolved "https://registry.yarnpkg.com/cdk-nag/-/cdk-nag-2.37.1.tgz#4222761a33dd3886a8a015cdd540593df1a0655a"
-  integrity sha512-qnW9iXwO7C/0i1Ly2ZeFcELTMhDCOJICOefBOQZMaaZSuLhbEyWlnlJHHqgToN2cOsdLcGJ4xxUnfRjbIBQtQQ==
-
 chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
@@ -8436,11 +8226,6 @@ colorette@2.0.19:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.19.tgz#cdf044f47ad41a0f4b56b3a0d5b4e6e1a2d5a798"
   integrity sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==
 
-command-exists@1.2.9:
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/command-exists/-/command-exists-1.2.9.tgz#c50725af3808c8ab0260fd60b01fbfa25b954f69"
-  integrity sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==
-
 commander@^9.1.0:
   version "9.5.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-9.5.0.tgz#bc08d1eb5cedf7ccb797a96199d41c7bc3e60d30"
@@ -8481,11 +8266,6 @@ constant-case@^3.0.4:
     tslib "^2.0.3"
     upper-case "^2.0.2"
 
-constructs@10.0.96:
-  version "10.0.96"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.96.tgz#b11861dab821bfac7775cca4ec4a12a924d7a29b"
-  integrity sha512-zUOU9CHjKZ4Qb9Wdfi7/OHXnPU37PqAUDZpHJ98d/PRx2I6Yv9Aud6/hPTgAdAw2i3VUoFp8q2ugULPlr76M7A==
-
 constructs@^10.0.0:
   version "10.4.2"
   resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.4.2.tgz#e875a78bef932cca12ea63965969873a25c1c132"
@@ -8495,11 +8275,6 @@ convert-source-map@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-2.0.0.tgz#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
   integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
-
-core-js-pure@^3.43.0:
-  version "3.46.0"
-  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.46.0.tgz#9bb80248584c6334bb54cd381b0f41c619ef1b43"
-  integrity sha512-NMCW30bHNofuhwLhYPt66OLOKTMbOhgTTatKVbaQC3KRHpTCiRIBYvtshr+NBYSnBxwAFhjW/RfJ0XbIjS16rw==
 
 core-js@^2.4.0:
   version "2.6.12"
@@ -9261,7 +9036,7 @@ fs-extra@11.1.1:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@^11.3.0, fs-extra@^11.3.1:
+fs-extra@^11.3.1:
   version "11.3.2"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.2.tgz#c838aeddc6f4a8c74dd15f85e11fe5511bfe02a4"
   integrity sha512-Xr9F6z6up6Ws+NjzMCZc6WXg2YFRlrLP9NQDO3VQrWrfiojdhS56TzueT88ze0uBdCTwEIhQ3ptnmKeWGFAe0A==
@@ -12556,13 +12331,6 @@ wsl-utils@^0.1.0:
   integrity sha512-h3Fbisa2nKGPxCpm89Hk33lBLsnaGBvctQopaBSOW/uIs6FTe1ATyAnKFJrzVs9vpGdsTe73WF3V4lIsk4Gacw==
   dependencies:
     is-wsl "^3.1.0"
-
-xregexp@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-5.1.1.tgz#6d3fe18819e3143aaf52f9284d34f49a59583ebb"
-  integrity sha512-fKXeVorD+CzWvFs7VBuKTYIW63YD1e1osxwQ8caZ6o1jg6pDAbABDG54LCIq0j5cy7PjRvGIq6sef9DYPXpncg==
-  dependencies:
-    "@babel/runtime-corejs3" "^7.16.5"
 
 xstate@^4.33.6:
   version "4.38.3"

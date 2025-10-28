@@ -8,7 +8,7 @@ import { AnalyticsTemplate } from "./analytics";
 
 // throw new Error("Category analytics is unsupported, please follow https://docs.amplify.aws/react/build-a-backend/add-aws-services/analytics/")
 // throw new Error("Category geo is unsupported, please follow https://docs.amplify.aws/react/build-a-backend/add-aws-services/geo/")
-let AMPLIFY_GEN_1_ENV_NAME = process.env.AMPLIFY_GEN_1_ENV_NAME;
+let AMPLIFY_GEN_1_ENV_NAME = process.env.AMPLIFY_GEN_1_ENV_NAME ?? 'dev';
 if (ci.isCI && !AMPLIFY_GEN_1_ENV_NAME) {
     throw new Error("AMPLIFY_GEN_1_ENV_NAME is required in CI environment");
 }
