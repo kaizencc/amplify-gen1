@@ -1,0 +1,12 @@
+[
+  {
+          "Source": {
+            "StackName": "analyticsreactamplifiedKinesis",
+            "LogicalResourceId": "KinesisStream"
+          },
+          "Destination": {
+            "StackName": "AnalyticsTemplateStackNestedStackAnalyticsTemplateStackNestedStackResource39D3E0D9",
+            "LogicalResourceId": "KinesisStream1"
+          }
+  }
+]

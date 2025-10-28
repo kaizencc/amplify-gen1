@@ -51,7 +51,7 @@ export class AnalyticsTemplate extends cdk.NestedStack {
     });
 
     // Resources
-    const kinesisStream = new kinesis.CfnStream(this, 'KinesisStream', {
+    const kinesisStream = new kinesis.CfnStream(this, 'KinesisStream1', {
       name: [
         props.kinesisStreamName!,
         props.amplifyEnv!,
