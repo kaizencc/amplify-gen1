@@ -1,15 +1,47 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-reactamplified-migrate-cb80b-authRole",
-      "UnauthRoleArn": "arn:aws:iam::912331974472:role/amplify-reactamplified-migrate-cb80b-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::912331974472:role/amplify-reactamplified-migrate-cb80b-authRole",
+      "AuthRoleName": "amplify-reactamplified-abcde-0b8df-authRole",
+      "UnauthRoleArn": "arn:aws:iam::912331974472:role/amplify-reactamplified-abcde-0b8df-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::912331974472:role/amplify-reactamplified-abcde-0b8df-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-reactamplified-migrate-cb80b-deployment",
-      "UnauthRoleName": "amplify-reactamplified-migrate-cb80b-unauthRole",
-      "StackName": "amplify-reactamplified-migrate-cb80b",
-      "StackId": "arn:aws:cloudformation:us-east-1:912331974472:stack/amplify-reactamplified-migrate-cb80b/6e1b32b0-aac9-11f0-b69e-12b2ccca489f",
+      "DeploymentBucketName": "amplify-reactamplified-abcde-0b8df-deployment",
+      "UnauthRoleName": "amplify-reactamplified-abcde-0b8df-unauthRole",
+      "StackName": "amplify-reactamplified-abcde-0b8df",
+      "StackId": "arn:aws:cloudformation:us-east-1:912331974472:stack/amplify-reactamplified-abcde-0b8df/ebeb07c0-aafa-11f0-a939-122d53d07f31",
       "AmplifyAppId": "d1350ke7ta4aar"
+    }
+  },
+  "analytics": {
+    "reactamplified": {
+      "providerPlugin": "awscloudformation",
+      "service": "Pinpoint",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplified-abcde-0b8df-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+        "logicalId": "analyticsreactamplified"
+      },
+      "lastPushTimeStamp": "2025-10-17T01:56:43.827Z",
+      "output": {
+        "appName": "reactamplified-abcde",
+        "Region": "us-east-1",
+        "Id": "46c24dd08b914f1d969410807c407497"
+      },
+      "lastPushDirHash": "enL8QW1mTgPXLUVS7Ng3QMb9uTQ="
+    },
+    "reactamplifiedKinesis": {
+      "providerPlugin": "awscloudformation",
+      "service": "Kinesis",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplified-abcde-0b8df-deployment/amplify-cfn-templates/analytics/kinesis-cloudformation-template.json",
+        "logicalId": "analyticsreactamplifiedKinesis"
+      },
+      "lastPushTimeStamp": "2025-10-17T01:56:43.827Z",
+      "output": {
+        "kinesisStreamId": "reactamplifiedKinesis-abcde",
+        "kinesisStreamShardCount": "1",
+        "kinesisStreamArn": "arn:aws:kinesis:us-east-1:912331974472:stream/reactamplifiedKinesis-abcde"
+      },
+      "lastPushDirHash": "+u/vGveCz+ITcs+gD1VDMRBU4Vs="
     }
   },
   "api": {
@@ -25,18 +57,18 @@
             "authenticationType": "API_KEY"
           }
         },
-        "GraphQLAPIIdOutput": "4wzexewchvdkxihuf6msin6e7m",
-        "GraphQLAPIEndpointOutput": "https://km4233ogizfcdb5q2sqvr526u4.appsync-api.us-east-1.amazonaws.com/graphql",
-        "GraphQLAPIKeyOutput": "da2-lp6h6ycgcffh7cowbsdml6zefq",
-        "DataSourceMappingOutput": "{\"Todo\":\"Todo-4wzexewchvdkxihuf6msin6e7m-migrate\"}"
+        "GraphQLAPIIdOutput": "liix25ytbjafjec55mvxirek4q",
+        "GraphQLAPIEndpointOutput": "https://tadjlhxqqvhc5pamo743kay55a.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-327mergev5h7pgq5el26mpnj3q",
+        "DataSourceMappingOutput": "{\"Todo\":\"Todo-liix25ytbjafjec55mvxirek4q-abcde\"}"
       },
       "providerPlugin": "awscloudformation",
       "service": "AppSync",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplified-migrate-cb80b-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplified-abcde-0b8df-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apireactamplified"
       },
-      "lastPushTimeStamp": "2025-10-17T00:38:47.162Z",
+      "lastPushTimeStamp": "2025-10-17T01:56:43.376Z",
       "lastPushDirHash": "cRKUYyshFMA0lgJ17ORoN+Zcm/I="
     }
   },
@@ -65,20 +97,50 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplified-migrate-cb80b-deployment/amplify-cfn-templates/auth/reactamplified93066f02-cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplified-abcde-0b8df-deployment/amplify-cfn-templates/auth/reactamplified93066f02-cloudformation-template.json",
         "logicalId": "authreactamplified93066f02"
       },
-      "lastPushTimeStamp": "2025-10-17T00:38:47.162Z",
+      "lastPushTimeStamp": "2025-10-17T01:56:43.376Z",
       "output": {
-        "UserPoolId": "us-east-1_KLaa5SKlS",
-        "AppClientIDWeb": "4t0815nidh8k35655vqu0v01kv",
-        "AppClientID": "6a9rglbaj5p1essvlt0h17mu2j",
-        "IdentityPoolId": "us-east-1:acdf27c0-0a2e-47ec-9ecd-3d81b11b83f6",
-        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:912331974472:userpool/us-east-1_KLaa5SKlS",
-        "IdentityPoolName": "reactamplified93066f02_identitypool_93066f02__migrate",
+        "UserPoolId": "us-east-1_rruXGYOxp",
+        "AppClientIDWeb": "5tn4jm1dgve2el6s8s8qlo3f41",
+        "AppClientID": "207krk5oeqamksik8rcm1ppe1g",
+        "IdentityPoolId": "us-east-1:84caee34-15f8-4686-8cb0-74d11aaaaefd",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:912331974472:userpool/us-east-1_rruXGYOxp",
+        "IdentityPoolName": "reactamplified93066f02_identitypool_93066f02__abcde",
         "UserPoolName": "reactamplified93066f02_userpool_93066f02"
       },
-      "lastPushDirHash": "YCFcEOGUwepuQse9f1a24I1e738="
+      "lastPushDirHash": "ihJTVPUkN2CPaTTkq8tkmwjkW2Y="
+    }
+  },
+  "geo": {
+    "map1b8eae72": {
+      "accessType": "AuthorizedUsers",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "reactamplified93066f02"
+        }
+      ],
+      "isDefault": true,
+      "mapStyle": "VectorEsriStreets",
+      "providerPlugin": "awscloudformation",
+      "service": "Map",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplified-abcde-0b8df-deployment/amplify-cfn-templates/geo/map1b8eae72-cloudformation-template.json",
+        "logicalId": "geomap1b8eae72"
+      },
+      "lastPushTimeStamp": "2025-10-17T01:56:43.376Z",
+      "output": {
+        "Style": "VectorEsriStreets",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:geo:us-east-1:912331974472:map/map1b8eae72-abcde",
+        "Name": "map1b8eae72-abcde"
+      },
+      "lastPushDirHash": "RRayEDTI6bVp+eXaZInRu239/DU="
     }
   },
   "hosting": {
@@ -87,10 +149,10 @@
       "service": "amplifyhosting",
       "type": "manual",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplified-migrate-cb80b-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-reactamplified-abcde-0b8df-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
         "logicalId": "hostingamplifyhosting"
       },
-      "lastPushTimeStamp": "2025-10-17T00:38:47.162Z",
+      "lastPushTimeStamp": "2025-10-17T01:56:43.376Z",
       "output": {},
       "lastPushDirHash": "ahBoFlNrTrvP1lrA7XJzUaIIm0k="
     }

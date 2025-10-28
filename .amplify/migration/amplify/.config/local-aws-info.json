@@ -4,7 +4,7 @@
     "useProfile": true,
     "profileName": "amplify-dev"
   },
-  "migrate": {
+  "abcde": {
     "configLevel": "project",
     "useProfile": true,
     "profileName": "amplify-dev"
